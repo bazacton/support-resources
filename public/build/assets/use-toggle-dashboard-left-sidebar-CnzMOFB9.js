@@ -1,0 +1,1 @@
+import{D as c}from"./main-CqFMqK8-.js";import{r as s,at as i}from"./client-OfhJa1Pp.js";function d(){const{leftSidenavStatus:t,setLeftSidenavStatus:e,name:a,isMobileMode:n}=s.useContext(c),r=s.useCallback(()=>{const o=t==="open"?"compact":"open";e(o),i(`${a}.sidenav.compact`,o==="compact")},[t,e,a]);return{leftSidenavStatus:t,toggleLeftSidenav:r,isMobileMode:n}}export{d as u};

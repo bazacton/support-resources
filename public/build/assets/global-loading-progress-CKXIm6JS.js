@@ -1,0 +1,1 @@
+import{T as t}from"./main-CqFMqK8-.js";import{r as o}from"./client-OfhJa1Pp.js";function a({query:s}){const[r]=o.useState(()=>new t),e=s.isFetching;return o.useEffect(()=>(e?r.show():r.hide(),()=>{e||r.hide()}),[e,r]),null}export{a as G};

@@ -1,0 +1,1 @@
+import{i as r,s as i,k as o,q as n,l as u}from"./client-OfhJa1Pp.js";import{o as p}from"./custom-menu-BbwshV9x.js";function y(a,t){return r({mutationFn:e=>o.put(`helpdesk/views/${a}`,e).then(s=>s.data),onSuccess:async()=>{await n.invalidateQueries({queryKey:u.views.invalidateKey})},onError:e=>t?p(e,t,[],!0):i(e)})}export{y as u};

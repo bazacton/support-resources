@@ -1,0 +1,1 @@
+import{j as e,az as o,T as a}from"./client-OfhJa1Pp.js";import{R as r}from"./visible-to-field-I5OzeH9w.js";function l({className:s,description:n}){return e.jsx(r,{className:s,name:"managed_by_role",label:e.jsx(a,{message:"Managed by"}),description:n,defaultItem:e.jsx(o,{value:"",children:e.jsx(a,{message:"Anyone with permissions"})},"anyone-default")})}export{l as M};

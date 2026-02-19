@@ -1,0 +1,1 @@
+import{r as t,b0 as s,j as m}from"./client-OfhJa1Pp.js";const l=t.memo(({code:o})=>{const{localeCode:r}=s(),a=new Intl.DisplayNames([r],{type:"region"});let e;try{e=a.of(o.toUpperCase())}catch{}return m.jsx(t.Fragment,{children:e})});export{l as F};
